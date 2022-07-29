@@ -16,6 +16,105 @@
 </head>
 
 <body>
-    
+
+    <!-- the Dashboard container -->
+    <div class="dashboard__container">
+        <div class="sidebar">
+            <!-- the Dashboard Logo and Name -->
+            <div class="dashboard_title">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52" height="52" viewBox="0 0 52 52">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #fff;
+                        }
+                  
+                        .cls-2 {
+                          font-size: 20px;
+                          font-family: Poppins-Medium, Poppins;
+                          font-weight: 500;
+                        }
+                  
+                        .cls-3 {
+                          filter: url(#Polygon_1-2);
+                        }
+                  
+                        .cls-4 {
+                          filter: url(#Polygon_1);
+                        }
+                      </style>
+                      <filter id="Polygon_1" x="0" y="0" width="52" height="52" filterUnits="userSpaceOnUse">
+                        <feOffset dy="4" input="SourceAlpha"/>
+                        <feGaussianBlur stdDeviation="4" result="blur"/>
+                        <feFlood flood-opacity="0.161"/>
+                        <feComposite operator="in" in2="blur"/>
+                        <feComposite in="SourceGraphic"/>
+                      </filter>
+                      <filter id="Polygon_1-2" x="0" y="0" width="52" height="52" filterUnits="userSpaceOnUse">
+                        <feOffset dy="4" input="SourceAlpha"/>
+                        <feGaussianBlur stdDeviation="4" result="blur-2"/>
+                        <feFlood flood-opacity="0.161" result="color"/>
+                        <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+                        <feComposite operator="in" in="color"/>
+                        <feComposite operator="in" in2="SourceGraphic"/>
+                      </filter>
+                    </defs>
+                    <g id="Group_4" data-name="Group 4" transform="translate(-155 -228)">
+                      <g data-type="innerShadowGroup">
+                        <g class="cls-4" transform="matrix(1, 0, 0, 1, 155, 228)">
+                          <path id="Polygon_1-3" data-name="Polygon 1" class="cls-1" d="M10.965,2.319a5,5,0,0,1,6.071,0l8.193,6.259a5,5,0,0,1,1.742,5.449L23.741,24.476A5,5,0,0,1,18.964,28H9.036a5,5,0,0,1-4.777-3.524L1.03,14.027A5,5,0,0,1,2.772,8.578Z" transform="translate(12 8)"/>
+                        </g>
+                        <g class="cls-3" transform="matrix(1, 0, 0, 1, 155, 228)">
+                          <path id="Polygon_1-4" data-name="Polygon 1" class="cls-1" d="M10.965,2.319a5,5,0,0,1,6.071,0l8.193,6.259a5,5,0,0,1,1.742,5.449L23.741,24.476A5,5,0,0,1,18.964,28H9.036a5,5,0,0,1-4.777-3.524L1.03,14.027A5,5,0,0,1,2.772,8.578Z" transform="translate(12 8)"/>
+                        </g>
+                      </g>
+                      <text id="s" class="cls-2" transform="translate(176 257)"><tspan x="0" y="0">s</tspan></text>
+                    </g>
+                  </svg>
+                <span>Dashboard</span>
+            </div>
+            
+            <!-- the Dashboard menu list -->
+            <ul class="menu__list">
+                <li class="menu"><a href="#">
+                    <i class="uil uil-estate menu__icon"></i>
+                    Home
+                </a></li>
+                <li class="menu"><a href="#">
+                    <i class="uil uil-user  menu__icon"></i>
+                    Profile
+                </a></li>
+                <li class="menu"><a href="#">
+                    <i class="uil uil-message menu__icon"></i>
+                    Messages
+                </a></li>
+                <li class="menu"><a href="#">
+                    <i class="uil uil-clock-three menu__icon"></i>
+                    History
+                </a></li>
+                <li class="menu"><a href="#">
+                    <i class="uil uil-clipboard-notes menu__icon"></i>
+                    Tasks
+                </a></li>
+                <li class="menu"><a href="#">
+                    <i class="uil uil-channel menu__icon"></i>
+                    Communities
+                </a></li>
+                <li class="menu"><a href="#">
+                    <i class="uil uil-setting menu__icon"></i>
+                    Settings
+                </a></li>
+                <li class="menu"><a href="#">
+                    <i class="uil uil-info menu__icon"></i>
+                    Support
+                </a></li>
+                <li class="menu"><a href="#">
+                    <i class="uil uil-shield-check menu__icon"></i>
+                    Privacy
+                </a></li>
+            </ul>
+        </div>
+    </div>
+
 </body>
 </html>
