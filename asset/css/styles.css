@@ -78,3 +78,71 @@ a {
     font-size: 1.25rem;
     margin-right: 10px;
 }
+
+.nav__container {
+    grid-area: 1 / 2 / 1 / 6;
+    background: #FFFFFF;
+    border-bottom: 1px solid black;
+    padding: 20px 30px;
+}
+
+.upper__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search__container {
+    display: flex;
+    width: 60%;
+    gap: 10px;
+    align-items: center;
+}
+
+.search__icon {
+    font-size: 1.25rem;
+}
+
+#search {
+    width: 100%;
+    padding: 5px;
+    background: #e2e9f1;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+}
+
+.right__contents{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.notification__icon {
+    font-size: 1.25rem;
+    margin-left: 40px;
+}
+
+.profile__contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.profile__img-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.profile__img {
+    width: 40px;
+    height: 40px;
+}
+
+.profile__name {
+    font-weight: 500;
+    font-size: 1rem;
+}
