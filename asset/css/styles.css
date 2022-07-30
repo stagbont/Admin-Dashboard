@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
 }
 
 li {
@@ -18,9 +19,8 @@ a {
 
 .dashboard__container {
     display: grid;
-    grid-template-columns: repeat(5, 0.2fr);
-    grid-template-rows: repeat(5, 0.2fr);
-    height: 100vh;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
 }
 
 .sidebar {
@@ -82,7 +82,7 @@ a {
 .nav__container {
     grid-area: 1 / 2 / 1 / 6;
     background: #FFFFFF;
-    border-bottom: 1px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
     padding: 20px 30px;
 }
 
@@ -90,6 +90,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .search__container {
@@ -146,3 +147,66 @@ a {
     font-weight: 500;
     font-size: 1rem;
 }
+
+.lower__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.low-left__contents {
+    display: flex;
+    align-items: center;
+}
+
+.profile__contents {
+    display: flex;
+    gap: 20px;
+}
+
+.lower-profile__img-container {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.lower-profile__img-container .profile__img {
+    height: 60px;
+    width: 60px;
+}
+
+.name__contents {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.name__contents .profile__name {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.low-right__contents {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px;
+    width: 100px;
+    background: #1c94d3;
+    border-radius: 20px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #FFFFFF;
+    color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
+}
+
