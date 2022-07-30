@@ -94,7 +94,7 @@ a {
 
 .search__container {
     display: flex;
-    width: 60%;
+    width: 70%;
     gap: 10px;
     align-items: center;
 }
@@ -113,7 +113,7 @@ a {
 }
 
 .right__contents{
-    width: 40%;
+    width: 30%;
     display: flex;
     align-items: center;
     gap: 40px;
