@@ -315,3 +315,11 @@ nav {
 .trend-description {
     margin-top: 5px;
 }
+
+/* Footer */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
